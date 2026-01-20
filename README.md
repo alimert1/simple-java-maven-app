@@ -69,14 +69,18 @@ Jenkins can be configured so that:
 •	Builds the Docker image
 •	Pushes it to the repository
 •	Deploys it to the environment
+
 This removes manual work:)
  
 Note:  Jenkins can also be used for
 •	Scheduled clean-up jobs
 •	Automated releases
 •	Standalone build jobs
+
 Continuous Integration vs Continuous Delivery
+
 With continuous delivery, every code change is built, tested, and then pushed to a non-production testing or staging environment. There can be multiple, parallel test stages before a production deployment. The difference between continuous delivery and continuous deployment is the presence of a manual approval to update to production. With continuous deployment, production happens automatically without explicit approval. 
+
 Continuous delivery automates the entire software release process. Every revision that is committed triggers an automated flow that builds, tests, and then stages the update. The final decision to deploy to a live production environment is triggered by the developer.
 
 
